@@ -1,0 +1,13 @@
+.sampul{
+    width: 100px;
+}
+
+.table > tbody > tr > *{
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 2rem; /* Ensure this matches the desired title size */
+    font-weight: bold;
+    margin-bottom: 1rem;
+}

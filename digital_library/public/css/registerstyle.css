@@ -1,0 +1,9 @@
+.no-padding {
+    padding: 0;
+}
+
+.card-body .form-control {
+    border-color: #ccc; /* Light grey border for form controls inside card-body */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

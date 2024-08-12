@@ -1,0 +1,77 @@
+#item {
+    margin-top: 40px;
+    display: flex;
+    gap: 80px; /* Add spacing between each card */
+    flex-wrap: wrap; /* Allow multiple rows */
+    align-items: center;
+}
+
+/* General card styling */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 330px; /* Adjust width as necessary */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#user-and-export {
+    margin-top: 40px;
+    display: flex;
+    gap: 80px; /* Add spacing between each card */
+    flex-wrap: wrap; /* Allow multiple rows */
+    align-items: center;
+}
+
+/* Hover effect for the card */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Card body styling for vertical alignment */
+.card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text inside */
+    flex-grow: 1; /* Allow card body to expand to fill space */
+}
+
+/* Icon styling */
+.card-body .icon i {
+    font-size: 3rem; /* Adjust the icon size */
+    color: #0f5ca9; /* Example color for icon */
+    margin-bottom: 10px; /* Space below the icon */
+}
+
+/* Title styling */
+.card-body .info h3 {
+    font-size: 1.6rem;
+    margin: 5px 0; /* Reduced space between title and description */
+    font-weight: bold;
+}
+
+/* Description styling */
+.card-body p {
+    margin: 0; /* Removes default margin from paragraph elements */
+    line-height: 1.5; /* Adjust line spacing if needed */
+    font-size: 0.9rem; /* Adjust font size as needed */
+    color: #666;
+}
+
+.card-body h3 span {
+    font-weight: normal; /* Make date appear less prominent if needed */
+    color: #666; /* Dim the color for the date to emphasize the title more */
+
+}
+
+/* Ensure each card has a minimum height */
+.card {
+    min-height: 250px; /* Adjust based on your design needs */
+}
